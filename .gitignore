@@ -1,0 +1,7 @@
+# Prevent accidentally tracking these
+*.swp
+*.swo
+.bash_history
+.zsh_history
+.viminfo
+.DS_Store

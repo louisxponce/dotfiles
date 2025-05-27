@@ -1,0 +1,15 @@
+# Use Emacs keybindings (default)
+set editing-mode emacs
+
+# Make completion case-insensitive
+set completion-ignore-case on
+
+# Enable Ctrl + Backspace to delete word before cursor
+"\C-h": backward-kill-word
+
+# Enable Ctrl + Delete to delete word after cursor
+"\e[3;5~": kill-word
+
+# Allow arrow key navigation during completion
+set show-all-if-ambiguous on
+TAB: menu-complete
