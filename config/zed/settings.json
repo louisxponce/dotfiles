@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "icon_theme": "Catppuccin Mocha",
   "buffer_font_family": "JetBrainsMono Nerd Font Mono",
   "base_keymap": "VSCode",
   "ui_font_size": 18,
@@ -14,11 +15,12 @@
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "Ayu Dark"
+    "dark": "Tokyo Night"
   },
   "terminal": {
     "dock": "right"
   },
   "restore_on_startup": "none",
-  "close_on_file_delete": true
+  "close_on_file_delete": true,
+  "disable_ai": true
 }

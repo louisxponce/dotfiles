@@ -45,7 +45,7 @@ precmd_functions+=( precmd_vcs_info )
 setopt prompt_subst
 #PROMPT='${vcs_info_msg_0_}%# '
 zstyle ':vcs_info:git:*' formats '(%F{yellow}%b%f) '
-# PROMPT='%F{blue}%~%f 
+# PROMPT='%F{blue}%~%f
 PROMPT='%F{cyan}%n@%m%f %F{blue}%~%f
 ${vcs_info_msg_0_}%(!.#.%F{green}➜%f) '
 
@@ -56,3 +56,6 @@ bindkey "^[[1;5D" backward-word   # Ctrl + ←
 bindkey "^[[1;5C" forward-word    # Ctrl + →
 bindkey "^[[3;5~" kill-word       # Ctrl + Del
 bindkey '^H' backward-kill-word   # Most common (Ctrl+Backspace sends ^H)
+
+# Path
+export PATH=$HOME/.local/bin:$PATH
