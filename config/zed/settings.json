@@ -10,8 +10,8 @@
   "icon_theme": "Catppuccin Mocha",
   "buffer_font_family": "JetBrainsMono Nerd Font Mono",
   "base_keymap": "VSCode",
-  "ui_font_size": 18,
-  "buffer_font_size": 15,
+  "ui_font_size": 16.0,
+  "buffer_font_size": 13.0,
   "theme": {
     "mode": "system",
     "light": "One Light",
