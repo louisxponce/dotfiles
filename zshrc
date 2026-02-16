@@ -59,3 +59,4 @@ bindkey '^H' backward-kill-word   # Most common (Ctrl+Backspace sends ^H)
 
 # Path
 export PATH=$HOME/.local/bin:$PATH
+export PATH=$PATH:/usr/local/go/bin
